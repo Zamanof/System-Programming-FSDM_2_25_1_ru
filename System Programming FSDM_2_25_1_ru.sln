@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12224.181 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 01. Processes", "SP 01. Processes\SP 01. Processes.csproj", "{B9C65FE9-8BDC-4210-A43C-380EEAF0E611}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 03. ThreadPool VS Thread", "SP 03. ThreadPool VS Thread\SP 03. ThreadPool VS Thread.csproj", "{AB1718FB-D9E8-4B3B-8596-E9F0A3A5E424}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 03. ThreadPool Restaurant Example", "SP 03. ThreadPool Restaurant Example\SP 03. ThreadPool Restaurant Example.csproj", "{E18D9A17-5EE7-47C1-984A-18F7AE2C181B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System Programming 04", "System Programming 04", "{FFE5C528-B4B8-48B2-9E4B-3A53CC1293E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 03. Critical Section. Monitor. Lock", "SP 03. Critical Section. Monitor. Lock\SP 03. Critical Section. Monitor. Lock.csproj", "{B8D28BE7-F7C0-416A-8DBC-7E74178CCFA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{E18D9A17-5EE7-47C1-984A-18F7AE2C181B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E18D9A17-5EE7-47C1-984A-18F7AE2C181B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E18D9A17-5EE7-47C1-984A-18F7AE2C181B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D28BE7-F7C0-416A-8DBC-7E74178CCFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D28BE7-F7C0-416A-8DBC-7E74178CCFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D28BE7-F7C0-416A-8DBC-7E74178CCFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D28BE7-F7C0-416A-8DBC-7E74178CCFA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{E26F602F-B119-42C6-AA45-DB8577280F9E} = {2E4B186D-F124-4F60-AA42-3E1E7CCF7D76}
 		{AB1718FB-D9E8-4B3B-8596-E9F0A3A5E424} = {2E4B186D-F124-4F60-AA42-3E1E7CCF7D76}
 		{E18D9A17-5EE7-47C1-984A-18F7AE2C181B} = {2E4B186D-F124-4F60-AA42-3E1E7CCF7D76}
+		{B8D28BE7-F7C0-416A-8DBC-7E74178CCFA0} = {FFE5C528-B4B8-48B2-9E4B-3A53CC1293E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BC187DE-6690-4635-B799-3ABA42264719}
